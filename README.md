@@ -32,3 +32,8 @@ Run the hierarchical UPF simulation:
 
 vcs -full64 -sverilog top.v ALU.v PMU.v tb.v -upf top.upf -debug_access+all
 ./simv
+
+---------------------------------------------------------------------------
+<img width="1157" height="1024" alt="image" src="https://github.com/user-attachments/assets/0e297ba3-044b-4e17-a4e8-fced01da44dd" />
+
+Block Diagram of Design with PMU (Power Management Unit) that controls the low power strategies according to idle signal. Causing ALU to shutdown during no usage and inputs and outputs will be isolated to prevent 'x' propagation.
